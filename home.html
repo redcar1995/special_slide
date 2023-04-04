@@ -15,6 +15,51 @@
 		};
 	</script>
 	<style>
+
+/* Header styles */
+		.header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		}
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 auto;
+			max-width: 150px;
+		}
+		.logo img {
+			width: 100%;
+			height: auto;
+		}
+		.navigation {
+			display: flex;
+			align-items: center;
+		}
+		.navigation li {
+			margin-right: 20px;
+			list-style: none;
+		}
+		.navigation li:last-child {
+			margin-right: 0;
+		}
+		.navigation a {
+			color: #000;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		.navigation a:hover {
+			color: #888;
+		}
+
+
+		/* Product grid styles */
+
 		.image-grid {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
