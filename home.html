@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopify Buy Button Example</title>
+	<!-- Include the Shopify Buy Button JS SDK -->
+	<script src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"></script>
+	<!-- Set up a Shopify Buy Button configuration object -->
+	<script>
+		var shopifyConfig = {
+			"apiKey": "YOUR_API_KEY",
+			"domain": "YOUR_SHOPIFY_STORE.myshopify.com",
+			"product": {
+				"id": "PRODUCT_ID",
+				"buttonDestination": "checkout",
+				"variantId": "VARIANT_ID",
+				"options": {
+					"product": {
+						"layout": "horizontal",
+						"variantPosition": "right",
+						"width": "100%"
+					},
+					"cart": {
+						"contents": {
+							"title": true,
+							"price": true,
+							"quantity": true
+						},
+						"footer": {
+							"button": true
+						}
+					}
+				},
+				"text": {
+					"button": "Buy now"
+				}
+			},
+			"cart": {
+				"popup": true
+			}
+		};
+	</script>
+</head>
+<body>
+	<!-- Create a div to contain the Buy Button -->
+	<div id="product-component-123456789"></div>
+	<!-- Render the Buy Button using the Shopify Buy Button JS SDK -->
+	<script>
+		var client = ShopifyBuy.buildClient(shopifyConfig);
+		ShopifyBuy.UI.onReady(client).then(function(ui){
+			ui.createComponent('product', {
+				id: shopifyConfig.product.id,
+				node: document.getElementById('product-component-123456789'),
+				options: shopifyConfig.product.options
+			});
+		});
+	</script>
+</body>
+</html>
