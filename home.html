@@ -9,50 +9,84 @@
 		var shopifyConfig = {
 			"apiKey": "YOUR_API_KEY",
 			"domain": "YOUR_SHOPIFY_STORE.myshopify.com",
-			"product": {
-				"id": "PRODUCT_ID",
-				"buttonDestination": "checkout",
-				"variantId": "VARIANT_ID",
-				"options": {
-					"product": {
-						"layout": "horizontal",
-						"variantPosition": "right",
-						"width": "100%"
-					},
-					"cart": {
-						"contents": {
-							"title": true,
-							"price": true,
-							"quantity": true
-						},
-						"footer": {
-							"button": true
-						}
-					}
-				},
-				"text": {
-					"button": "Buy now"
-				}
-			},
 			"cart": {
 				"popup": true
 			}
 		};
 	</script>
+	<style>
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			margin-bottom: 20px;
+		}
+		.product-image {
+			max-width: 100%;
+			max-height: 200px;
+			color:black;
+		}
+		.product-title {
+			margin-top: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.product-price {
+			margin-top: 5px;
+			font-size: 14px;
+			text-align: center;
+			color:black;
+		}
+		.buy-button {
+			display: block;
+			margin: 10px auto;
+			width: 100%;
+			max-width: 200px;
+			color:black;
+		}
+	</style>
 </head>
 <body>
-	<!-- Create a div to contain the Buy Button -->
-	<div id="product-component-123456789"></div>
-	<!-- Render the Buy Button using the Shopify Buy Button JS SDK -->
+	<!-- Add an image grid with your images -->
+	<div class="image-grid">
+		<div>
+			<img class="product-image" src="https://www.datocms-assets.com/97073/1680542997-screenshot-2023-04-03-at-19-26-52.png" alt="Product 1">
+			<div class="product-title">Product 1</div>
+			<div class="product-price">$19.99</div>
+			<button class="buy-button" id="product-component-1">Buy now</button>
+		</div>
+		<div>
+			<img class="product-image" src="https://www.datocms-assets.com/97073/1680542997-screenshot-2023-04-03-at-19-26-52.png" alt="Product 2">
+			<div class="product-title">Product 2</div>
+			<div class="product-price">$29.99</div>
+			<button class="buy-button" id="product-component-2">Buy now</button>
+		</div>
+		<div>
+			<img class="product-image" src="https://www.datocms-assets.com/97073/1680542997-screenshot-2023-04-03-at-19-26-52.png" alt="Product 3">
+			<div class="product-title">Product 3</div>
+			<div class="product-price">$39.99</div>
+			<button class="buy-button" id="product-component-3">Buy now</button>
+		</div>
+	</div>
+	<!-- Render the Buy Buttons using the Shopify Buy Button JS SDK -->
 	<script>
 		var client = ShopifyBuy.buildClient(shopifyConfig);
-		ShopifyBuy.UI.onReady(client).then(function(ui){
-			ui.createComponent('product', {
-				id: shopifyConfig.product.id,
-				node: document.getElementById('product-component-123456789'),
-				options: shopifyConfig.product.options
+
+		// Create a function to render a Buy Button component
+		function renderBuyButton(id, productId, variantId, options) {
+			ShopifyBuy.UI.onReady(client).then(function(ui){
+				ui.createComponent('product', {
+					id: productId,
+					variantId: variantId,
+					node: document.getElementById(id),
+					options: options
+				});
 			});
-		});
-	</script>
-</body>
-</html>
+		}
+
+		// Render the Buy Button components for each product
+		renderBuyButton('product-component-1', 'PRODUCT_1_ID', 'PRODUCT_1_VARIANT_ID', {
+			"product": {
+				"layout": "horizontal",
+				
