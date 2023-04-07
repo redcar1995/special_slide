@@ -392,3 +392,123 @@
   margin-bottom: 0;
   text-decoration: none;
 }
+/* CSS for screens with minimum width of 768px (tablets) */
+@media screen and (min-width: 768px) {
+  .shop-header {
+  top: 162px;
+  left: 53px;
+  width: 1337px;
+  height: 311px;
+  }
+  .shop-frame1 {
+  top: 0px;
+  left: 0px;
+  width: 1342px;
+  padding: 0 338px;
+  }
+  .shop-text {
+  font-size: 200px;
+  }
+  .shop-text02 {
+  width: 666px;
+  font-size: 24px;
+  }
+  .shop-nav {
+  top: 28px;
+  left: 53px;
+  width: 1334px;
+  height: 55px;
+  }
+  .shop-group5 {
+  width: 1334px;
+  height: 27px;
+  }
+  .shop-logo {
+  width: 149px;
+  height: 27px;
+  }
+  .shop-rectangle540 {
+  top: 0px;
+  left: 1269px;
+  width: 65px;
+  height: 27px;
+  border-radius: 11px;
+  }
+  .shop-text04 {
+  top: 6px;
+  left: 1278px;
+  font-size: 12px;
+  }
+  .shop-frame2 {
+  top: 612px;
+  left: 53px;
+  width: 1334px;
+  height: 584px;
+  padding: 0 71px;
+  }
+  .shop-image109 {
+  width: 374px;
+  height: 548px;
+  margin-right: 37px;
+  }
+  .shop-image115 {
+  width: 374px;
+  height: 548px;
+  margin-right: 37px;
+  }
+  .shop-image116 {
+  width: 374px;
+  height: 548px;
+  }
+  .shop-text06 {
+  top: 1196px;
+  left: 120px;
+  color: rgba(0, 0, 0, 1);
+  width: 210px;
+  font-size: 15px;
+  }
+  }
+  
+  /* CSS for screens with maximum width of 767px (mobile devices) */
+  @media screen and (max-width: 767px) {
+  .shop-header {
+  top: 50px;
+  left: 16px;
+  width: 296px;
+  height: 69px;
+  font-size: 18px;
+  text-align: center;
+  }
+  .shop-frame1 {
+  top: 147px;
+  left: 16px;
+  width: 296px;
+  padding: 0 30px;
+  }
+  .shop-text {
+  font-size: 56px;
+  }
+  .shop-text02 {
+  width: 296px;
+  font-size: 14px;
+  }
+  .shop-nav {
+  top: 237px;
+  left: 16px;
+  width: 296px;
+  height: 40px;
+  }
+  .shop-group5 {
+  width: 296px;
+  height: 20px;
+  justify-content: space-between;
+  }
+  .shop-logo {
+  width: 100px;
+  height: 20px;
+  }
+  .shop-rectangle540 {
+  top: 0px;
+  left: 231px;
+  width: 20px;
+  height:
