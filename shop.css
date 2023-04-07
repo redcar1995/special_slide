@@ -409,33 +409,3 @@
     top: 20px;
   }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  /* Modify styles for medium screens */
-  .shop-header {
-    width: 100%;
-    height: auto;
-    top: 100px;
-  }
-
-  .shop-nav {
-    width: 100%;
-    height: auto;
-    top: 20px;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  /* Modify styles for larger screens */
-  .shop-header {
-    width: 100%;
-    height: auto;
-    top: 162px;
-  }
-
-  .shop-nav {
-    width: 100%;
-    height: auto;
-    top: 28px;
-  }
-}
