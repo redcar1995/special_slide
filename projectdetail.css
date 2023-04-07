@@ -3,7 +3,7 @@
 }
 .projectdetail-projectdetail {
   width: 100%;
-  height: 3856px;
+  height: auto;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -13,13 +13,10 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .projectdetail-text {
-  top: 167px;
-  left: 433px;
   color: rgba(0, 0, 0, 1);
   height: auto;
-  position: absolute;
-  font-size: 200px;
-  align-self: auto;
+  position: relative;
+  font-size: 10vw;
   font-style: Regular;
   text-align: left;
   font-family: FK Grotesk Neue Trial;
@@ -31,14 +28,10 @@
   text-decoration: none;
 }
 .projectdetail-text02 {
-  top: 1137px;
-  left: 129px;
   color: rgba(0, 0, 0, 1);
-  width: 210px;
   height: auto;
-  position: absolute;
-  font-size: 15px;
-  align-self: auto;
+  position: relative;
+  font-size: 2vw;
   font-style: Regular;
   text-align: left;
   font-family: FK Grotesk Neue Trial;
@@ -50,38 +43,32 @@
   text-decoration: none;
 }
 .projectdetail-text07 {
-  top: 1380px;
-  left: 383px;
   color: rgba(0, 0, 0, 1);
-  width: 666px;
+  width: 100%;
   height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
+  position: relative;
+  font-size: 2.5vw;
   font-style: Light;
   text-align: center;
   font-family: FK Grotesk Neue Trial;
   font-weight: 300;
-  line-height: 149.00000095367432%;
+  line-height: 1.5;
   font-stretch: normal;
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
 }
 .projectdetail-text09 {
-  top: 2831px;
-  left: 188.4483642578125px;
   color: rgba(0, 0, 0, 1);
-  width: 498px;
+  width: 100%;
   height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
+  position: relative;
+  font-size: 2.5vw;
   font-style: Light;
   text-align: left;
   font-family: FK Grotesk Neue Trial;
   font-weight: 300;
-  line-height: 149.00000095367432%;
+  line-height: 1.5;
   font-stretch: normal;
   margin-right: 0;
   margin-bottom: 0;
@@ -107,33 +94,14 @@
   text-decoration: none;
 }
 .projectdetail-logo {
-  left: 41px;
-  width: 1359px;
-  bottom: 254px;
-  height: 248px;
-  position: absolute;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 2vw;
 }
 .projectdetail-w {
-  left: 1384.8477783203125px;
-  width: 13.396916389465332px;
-  bottom: -410px;
-  height: 11.888238906860352px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
+  width: 100%;
+  height: auto;
 }
 .projectdetail-vector {
   top: 0px;
