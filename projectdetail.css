@@ -1,0 +1,509 @@
+.projectdetail-container {
+  min-height: 100vh;
+}
+.projectdetail-projectdetail {
+  width: 100%;
+  height: 4093px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.projectdetail-text {
+  top: 167px;
+  left: 433px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 200px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.projectdetail-text02 {
+  top: 1208px;
+  left: 173px;
+  color: rgba(0, 0, 0, 1);
+  width: 210px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.projectdetail-text07 {
+  top: 1434px;
+  left: 381.73101806640625px;
+  color: rgba(0, 0, 0, 1);
+  width: 666px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: center;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 300;
+  line-height: 149.00000095367432%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.projectdetail-text09 {
+  top: 2831px;
+  left: 188.4483642578125px;
+  color: rgba(0, 0, 0, 1);
+  width: 498px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 300;
+  line-height: 149.00000095367432%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.projectdetail-text11 {
+  top: 419px;
+  left: 382.73101806640625px;
+  color: rgba(0, 0, 0, 1);
+  width: 666px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: center;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.projectdetail-footer {
+  top: 3457px;
+  left: 40px;
+  width: 1361px;
+  height: 569px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.projectdetail-logo {
+  top: 0px;
+  right: -16px;
+  width: 1359px;
+  height: 248px;
+  position: absolute;
+}
+.projectdetail-w {
+  top: 553.554931640625px;
+  left: 1344.8477783203125px;
+  width: 13.396916389465332px;
+  height: 11.888238906860352px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.projectdetail-vector {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 12px;
+  position: absolute;
+}
+.projectdetail-text13 {
+  top: 554px;
+  left: 1274px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text15 {
+  top: 554px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text17 {
+  top: 298px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text28 {
+  top: 298px;
+  left: 1307px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text30 {
+  top: 298px;
+  left: 1035px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.20;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text32 {
+  top: 299px;
+  left: 29px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-line80 {
+  top: 324px;
+  left: 1035px;
+  width: 325px;
+  height: 0px;
+  position: absolute;
+}
+.projectdetail-text41 {
+  top: 1205.7265625px;
+  left: 576px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-text46 {
+  top: 1205.7265625px;
+  left: 982px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-image109 {
+  top: 641px;
+  left: 565px;
+  width: 374px;
+  height: 548px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-image116 {
+  top: 641px;
+  left: 166px;
+  width: 374px;
+  height: 548px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-image115 {
+  top: 641px;
+  right: 176.7734375px;
+  width: 374px;
+  height: 548px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-image108 {
+  top: 1766px;
+  left: 0px;
+  width: 555px;
+  height: 814px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-image106 {
+  top: 2262px;
+  right: -5px;
+  width: 555px;
+  height: 813px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-header {
+  top: 34px;
+  left: 40px;
+  width: 1360px;
+  height: 27px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.projectdetail-logo1 {
+  top: 0px;
+  left: 0px;
+  width: 149px;
+  height: 27px;
+  position: absolute;
+}
+.projectdetail-menu {
+  top: 0px;
+  left: 251px;
+  width: 73px;
+  height: 27px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.projectdetail-text51 {
+  top: 6px;
+  left: 30px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-arrow {
+  top: 10px;
+  left: 10px;
+  width: 15px;
+  height: 7px;
+  position: absolute;
+}
+.projectdetail-menu1 {
+  top: 0px;
+  left: 1254px;
+  width: 65px;
+  height: 27px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.projectdetail-text53 {
+  top: 6px;
+  left: 9px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: FK Grotesk Neue Trial;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.projectdetail-shuffle {
+  top: 0px;
+  left: 329px;
+  width: 27px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 27px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.projectdetail-switchblackwhite {
+  top: 10px;
+  left: 1349px;
+  width: 11px;
+  height: 7px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.projectdetail-ellipse1 {
+  top: 0px;
+  left: 0px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-color: transparent;
+}
+.projectdetail-ellipse2 {
+  top: 0px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
