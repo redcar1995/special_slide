@@ -254,8 +254,10 @@
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-content {
@@ -291,6 +293,7 @@
     margin-bottom: 30px;
   }
 }
+
 
 
 @media only screen and (max-width: 768px) {
