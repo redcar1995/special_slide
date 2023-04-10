@@ -349,6 +349,7 @@
     flex: unset;
     padding: 23px 3px 65px 92px;
     text-align: center;
+    width: 300px;
   }
   .a-virtual-try-on-we-created-fo-parent {
     flex-direction: column;
