@@ -83,8 +83,8 @@
   font-weight: 300;
   transform: rotate(0.38deg);
   transform-origin: 0 0;
-  margin-top: 150px;
 }
+
 .image-108-parent {
   align-self: stretch;
   display: flex;
@@ -92,8 +92,9 @@
   padding: 0 201px 0 0;
   align-items: center;
   justify-content: flex-start;
-  gap: 90px;
+  gap: 190px;
   font-size: var(--font-size-5xl);
+  margin-top: 150px;
 }
 .a-virtual-try-on1 {
   flex: 1;
