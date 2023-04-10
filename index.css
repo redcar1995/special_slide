@@ -251,6 +251,7 @@
   padding: 12px 17px 12px 17px;
   font-size: 14px;
   border-radius: 15px;
+  border: 1px solid #000;
 }
 
 .dropdown {
