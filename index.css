@@ -143,7 +143,6 @@
 }
 .a-virtual-try-on-we-created-fo-parent {
   align-self: stretch;
-  overflow: hidden;
   display: flex;
   flex-direction: row;
   padding: 0 0 var(--padding-4xs) var(--padding-93xl);
@@ -379,7 +378,7 @@
     flex: unset;
     text-align: center;
     width: 350px;
-    padding: 20px 20px 20px 88px;
+    padding: 46px 20px 0px 100px
   }
   .image-108-parent {
     flex-direction: column;
@@ -397,10 +396,9 @@
   }
   .a-virtual-try-on1,
   .image-106-icon {
-    flex: unset;
-    padding: 23px 3px 65px 92px;
+    padding: 18px 0px 61px 58px;
     text-align: center;
-    width: 300px;
+    width: 350px;
   }
   .a-virtual-try-on-we-created-fo-parent {
     flex-direction: column;
