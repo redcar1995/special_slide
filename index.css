@@ -6,6 +6,21 @@
     opacity: 1;
   }
 }
+
+@font-face {
+  font-family: 'FKLight';
+  src: url('fonts/FKGroteskNeue-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FKReg';
+  src: url('fonts/FKGroteskNeue-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
 .logo-icon {
   width: 149px;
   height: 27px;
