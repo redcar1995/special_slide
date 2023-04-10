@@ -281,7 +281,7 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #ffffff;}
 
 @media only screen and (max-width: 768px) {
   .image-container {
@@ -294,8 +294,6 @@
     margin-bottom: 30px;
   }
 }
-
-
 
 @media only screen and (max-width: 768px) {
   /* Add your CSS rules here for mobile devices */
