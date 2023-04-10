@@ -283,8 +283,6 @@
 .dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
-  position: relative;
-  top: 0;
 }
 
 /* Change the background color of the dropdown links when the dropdown content is shown */
