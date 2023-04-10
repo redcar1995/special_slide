@@ -269,6 +269,7 @@
   color: white;
   padding: 8px 14px 6px 14px;
   font-size: 15px;
+  font-family: 'FKLight';
   border: 1px solid #000;
   border-radius: 15px;
   text-align: center;
@@ -290,6 +291,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 15px;
+  font-family: 'FKLight';
 }
 
 /* Links inside the dropdown */
@@ -298,6 +300,7 @@
   padding: 12px 16px;
   display: block;
   border-radius: 15px;
+  font-family: 'FKLight';
 }
 
 /* Change color of dropdown links on hover */
