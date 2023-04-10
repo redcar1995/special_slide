@@ -248,11 +248,19 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+  position: absolute;
+  z-index: 1;
+  }
 
 .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+  }
+  
+.dropdown:hover .dropdown-content a:hover {
   background-color: #000;
-}
+  color: white;
+  }
 
 
 
