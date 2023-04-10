@@ -328,7 +328,8 @@
   }
   .a-virtual-try-on {
     flex: unset;
-    align-self: stretch;
+    text-align: center;
+    width: 300px;
   }
   .image-108-parent {
     flex-direction: column;
