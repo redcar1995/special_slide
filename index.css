@@ -128,19 +128,19 @@
 }
 .logo-icon1 {
   position: relative;
-  width: 1280px;
-  height: 230px;
+  width: 100%;
+  height: auto;
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .logo-wrapper {
   align-self: stretch;
-  height: 405px;
+  min-height: 405px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  padding: var(--padding-54xl) var(--padding-17xl) var(--padding-41xl)
-    var(--padding-34xl);
+  padding: var(--padding-54xl) var(--padding-17xl) var(--padding-41xl) var(--padding-34xl);
   box-sizing: border-box;
   align-items: flex-start;
 }
@@ -155,6 +155,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .logo-wrapper > * {
     margin: 10px;
   }
