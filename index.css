@@ -61,7 +61,7 @@
   font-size: var(--font-size-181xl);
 }
 .frame-child {
-  max-width: 100%;
+  max-width: 96%;
   max-height: 100%;
   object-fit: cover;
   opacity: 0;
