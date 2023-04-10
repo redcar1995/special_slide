@@ -216,7 +216,8 @@
 }
 @media only screen and (max-width: 768px) {
   .image-container div {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 .image-container .dropdown {
