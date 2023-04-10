@@ -187,6 +187,12 @@
   color: var(--color-black);
   font-family: var(--font-fk-grotesk-neue-trial);
 }
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 1200px) {
   .frame-child,
   .header {
