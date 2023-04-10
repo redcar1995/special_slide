@@ -93,7 +93,7 @@
   padding: 0 201px 0 0;
   align-items: center;
   justify-content: flex-start;
-  gap: 189px;
+  gap: 90px;
   font-size: var(--font-size-5xl);
 }
 .a-virtual-try-on1 {
@@ -198,7 +198,7 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
-  gap: 88px;
+  gap: 5px;
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--color-black);
