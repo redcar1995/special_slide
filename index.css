@@ -64,6 +64,7 @@
   max-height: 100%;
   object-fit: cover;
   opacity: 0;
+  padding: 10px;
 }
 .a-virtual-try-on-we-created-fo-parent.animate,
 .frame-child.animate {
@@ -191,6 +192,7 @@
 .image-container {
   display: flex;
   justify-content: space-between;
+  padding: 30px 30px 30px 30px;
 }
 
 @media screen and (max-width: 1200px) {
