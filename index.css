@@ -302,6 +302,7 @@
   .header.animate,
   .image-108-parent.animate {
     animation: 1s ease 0s 1 normal forwards fade-in;
+    padding: 10px 10px 10px 10px;
   }
   @keyframes fade-in {
     0% {
