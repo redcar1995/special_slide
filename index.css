@@ -244,6 +244,8 @@
 .dropdown {
   display: inline-block;
   position: relative;
+  height: 40px;
+  vertical-align: top;
 }
 
 /* Dropdown content (hidden by default) */
