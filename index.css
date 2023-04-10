@@ -347,7 +347,8 @@
   .a-virtual-try-on1,
   .image-106-icon {
     flex: unset;
-    align-self: stretch;
+    padding: 23px 3px 65px 92px;
+    text-align: center;
   }
   .a-virtual-try-on-we-created-fo-parent {
     flex-direction: column;
