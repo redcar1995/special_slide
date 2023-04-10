@@ -214,7 +214,11 @@
 .image-container div {
   position: relative;
 }
-
+@media only screen and (max-width: 768px) {
+  .image-container div {
+    width: 100%;
+  }
+}
 .image-container .dropdown {
   position: absolute;
   bottom: 0;
