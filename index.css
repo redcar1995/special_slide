@@ -310,12 +310,6 @@
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #ddd;
-  color: black;
-}
-
 /* Change the background color of the dropdown links when the dropdown content is shown */
 .dropdown:hover .dropdown-content a:hover {
   background-color: #000;
