@@ -144,6 +144,14 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+@media only screen and (max-width: 768px) {
+  .logo-wrapper {
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .beyond-20221 {
   font-family: var(--font-fk-grotesk-neue-trial);
 }
