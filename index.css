@@ -244,8 +244,6 @@
 .dropdown {
   display: inline-block;
   position: relative;
-  height: 40px;
-  vertical-align: top;
 }
 
 /* Dropdown content (hidden by default) */
@@ -284,6 +282,8 @@
 .dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
+  position: relative;
+  top: 0;
 }
 
 /* Change the background color of the dropdown links when the dropdown content is shown */
@@ -291,6 +291,7 @@
   background-color: #000;
   color: white;
 }
+
 
 @media screen and (max-width: 1200px) {
   .frame-child,
