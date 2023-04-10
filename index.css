@@ -327,6 +327,7 @@
   /* Add your CSS rules here for mobile devices */
   body {
     overflow-x: hidden;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
