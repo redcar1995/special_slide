@@ -99,6 +99,8 @@
   font-weight: 300;
   transform: rotate(0.38deg);
   transform-origin: 0 0;
+  font-family: 'FKLight';
+
 }
 
 .image-108-parent {
@@ -121,6 +123,8 @@
   transform-origin: 0 0;
   z-index: 1;
   margin-right: 200px;
+  font-family: 'FKLight';
+
 }
 .image-106-icon {
   flex: 1;
@@ -177,7 +181,8 @@
   }
 }
 .beyond-20221 {
-  font-family: var(--font-fk-grotesk-neue-trial);
+  font-family: 'FKLight';
+
 }
 .w-icon {
   position: relative;
@@ -196,7 +201,7 @@
   padding: var(--padding-7xs);
   justify-content: flex-start;
   gap: var(--gap-3xs);
-  font-family: var(--font-fk-grotesk-neue-trial);
+  font-family: 'FKLight';
 }
 .beyond-2022-parent {
   align-self: stretch;
@@ -305,6 +310,7 @@
   background-color: #000;
   color: white;
 }
+
 
 
 @media screen and (max-width: 1200px) {
