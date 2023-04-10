@@ -114,6 +114,12 @@
   font-size: var(--font-size-5xl);
   margin-top: 150px;
 }
+@media screen and (max-width: 767px) {
+  .image-108-parent {
+    gap: 30px;
+  }
+}
+
 .a-virtual-try-on1 {
   flex: 1;
   position: relative;
@@ -367,7 +373,8 @@
   .a-virtual-try-on {
     flex: unset;
     text-align: center;
-    width: 300px;
+    width: 350px;
+    padding: 20px 20px 20px 88px;
   }
   .image-108-parent {
     flex-direction: column;
@@ -411,6 +418,8 @@
     gap: var(--gap-181xl);
     align-items: center;
     justify-content: center;
+    padding: 10px 10px 10px 10px;
+    font-family: 'FKLight';
   }
 }
 
