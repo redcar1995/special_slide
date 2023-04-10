@@ -278,8 +278,10 @@
 
 /* Dropdown container */
 .dropdown {
-  display: inline-block;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Dropdown content (hidden by default) */
