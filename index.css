@@ -41,9 +41,8 @@
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  width: 564px;
-  height: 193px;
   flex-shrink: 0;
+  font-size: 150px;
 }
 
 .frame-child,
@@ -52,9 +51,8 @@
   overflow: hidden;
 }
 .header {
-  display: flex;
   flex-direction: row;
-  padding: var(--padding-3xs) var(--padding-418xl);
+  padding: 50px 420px 20px 420px;
   align-items: baseline;
   justify-content: space-between;
   text-align: center;
@@ -85,6 +83,7 @@
   font-weight: 300;
   transform: rotate(0.38deg);
   transform-origin: 0 0;
+  margin-top: 150px;
 }
 .image-108-parent {
   align-self: stretch;
