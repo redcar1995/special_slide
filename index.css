@@ -136,7 +136,7 @@
 
 .logo-wrapper {
   align-self: stretch;
-  min-height: 405px;
+  min-height: 205px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
