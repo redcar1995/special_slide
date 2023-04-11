@@ -293,10 +293,6 @@
   color: #000000;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #292929;}
-
 @media only screen and (max-width: 768px) {
   .image-container {
     flex-direction: column;
