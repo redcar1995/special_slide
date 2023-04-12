@@ -257,6 +257,16 @@
 .image-container div:hover {
   opacity: 0.6;
 }
+.text-container {
+  text-align: left;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: 'FKLight';
+  color: #333;
+}
 
 /* Button CSS */
 .dropbtn {
