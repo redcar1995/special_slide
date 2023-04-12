@@ -251,6 +251,8 @@
 
 .image-container div {
   position: relative;
+  transition: opacity 0.3s ease;
+
 }
 .image-container div:hover {
   opacity: 0.8;
