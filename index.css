@@ -36,7 +36,6 @@
 .nav {
   overflow: hidden;
   display: flex;
-  position: sticky;
   top: 0;
   flex-direction: row;
   z-index: 1; 
@@ -52,7 +51,7 @@
 }
 .nav {
   align-self: stretch;
-  padding: var(--padding-sm) var(--padding-33xl);
+  padding: 10px 41px 10px 41px;
   align-items: center;
   justify-content: space-between;
 }
@@ -225,7 +224,8 @@
   align-self: stretch;
   padding: var(--padding-6xl) var(--padding-28xl);
   justify-content: space-between;
-  font-family: var(--font-helvetica);
+  font-family: 'FKLight';
+  font-size: 12px;
 }
 .nav-parent {
   position: relative;
