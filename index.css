@@ -252,6 +252,9 @@
 .image-container div {
   position: relative;
 }
+.image-container div:hover {
+  opacity: 0.8;
+}
 
 /* Button CSS */
 .dropbtn {
