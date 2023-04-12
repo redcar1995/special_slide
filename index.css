@@ -59,31 +59,7 @@
 .nav {
   padding: 0px 18px 0px 18px;
 }
-@media only screen and (max-width: 767px) {
-  .nav {
-    overflow: hidden;
-    display: flex;
-    position: sticky;
-    top: 0;
-    flex-direction: row;
-    z-index: 1;
-    width: 100%; /* sets navigation to 100% width */
-    padding: var(--padding-sm) var(--padding-xs); /* change padding to suit mobile layout */
-  }
-
-  .contact-wrapper {
-    border-radius: var(--br-2xs);
-    background-color: var(--color-white);
-    border: 1px solid var(--color-black);
-    padding: var(--padding-7xs) var(--padding-4xs);
-    align-items: flex-start;
-    justify-content: flex-start;
-    z-index: 0;
-  }
 }
-
-
-
 
 .shop {
   position: relative;
