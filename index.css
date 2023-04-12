@@ -36,6 +36,8 @@
 .nav {
   overflow: hidden;
   display: flex;
+  position: sticky;
+  top: 0;
   flex-direction: row;
 }
 .contact-wrapper {
