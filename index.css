@@ -241,7 +241,6 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: flex-start;
-  gap: 5px;
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--color-black);
@@ -383,7 +382,7 @@ button.addEventListener('click', () => {
   .header.animate,
   .image-108-parent.animate {
     animation: 1s ease 0s 1 normal forwards fade-in;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 0px 10px
   }
   @keyframes fade-in {
     0% {
