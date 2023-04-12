@@ -56,6 +56,11 @@
   align-items: center;
   justify-content: space-between;
 }
+.nav {
+  padding: 0px 18px 0px 18px;
+}
+}
+
 .shop {
   position: relative;
   text-transform: uppercase;
@@ -455,6 +460,6 @@ button.addEventListener('click', () => {
   .shop {
   width: 90%;
   height: 120px;
-  font-size: 100px;
+  font-size: 70px;
   }
   }
