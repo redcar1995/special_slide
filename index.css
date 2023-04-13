@@ -628,7 +628,7 @@
   .other-products {
     height: 802.82px;
     flex-shrink: 0;
-    padding: var(--padding-41xl) 120px;
+    padding: 180px 100px 100px 100px;
     box-sizing: border-box;
     align-items: flex-start;
     justify-content: flex-start;
