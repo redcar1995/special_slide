@@ -69,24 +69,42 @@
           </a>
         </div>
       
-      <div class="beyond-logo">
-        <img
-          class="beyond-container-icon"
-          alt=""
-          src="./public/frame-31@2x.png"
-        />
-      </div>
-      <footer class="footer">
+        <div class="logo-wrapper">
+          <img class="logo-icon1" alt="" src="./public/logo1@2x.png" />
+        </div>
         <div class="beyond-2022-parent">
-          <div class="beyond-2022">
-            <span>©</span><span class="span"> Beyond 2022</span>
+          <div class="contact">
+            <span>©</span><span class="beyond-20221"> Beyond 2023</span>
           </div>
-          <div class="website-by">
-            <div class="website-by1">Website by</div>
+          <div class="website-by-parent">
+            <div class="contact">Website by</div>
             <img class="w-icon" alt="" src="./public/w.svg" />
           </div>
         </div>
-      </footer>
+      </div>
+  
+      <script>
+        var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+        var observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting || entry.intersectionRatio > 0) {
+                const targetElement = entry.target;
+                targetElement.classList.add("animate");
+                observer.unobserve(targetElement);
+              }
+            }
+          },
+          {
+            threshold: 0.15,
+          }
+        );
+        
+        for (let i = 0; i < scrollAnimElements.length; i++) {
+          observer.observe(scrollAnimElements[i]);
+        }
+        </script>
+        </div>
     </div>
   </body>
 </html>
