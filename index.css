@@ -451,3 +451,390 @@
   font-family: 'FKReg';
   }
   }
+  .logo-icon {
+    position: relative;
+    width: 149px;
+    height: 27px;
+    flex-shrink: 0;
+  }
+  .contact {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-fk-grotesk-neue-trial);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .button,
+  .logo-parent,
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    cursor: pointer;
+    border: 1px solid var(--color-gray);
+    padding: 6px 9px;
+    background-color: var(--color-white);
+    border-radius: 11px;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .logo-parent,
+  .nav {
+    align-items: center;
+  }
+  .logo-parent {
+    flex: 1;
+    justify-content: space-between;
+    z-index: 0;
+  }
+  .nav {
+    align-self: stretch;
+    height: 107px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: var(--padding-21xl) var(--padding-41xl);
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .product-image-icon {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .product-name {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 464px;
+  }
+  .span {
+    font-family: var(--font-fk-grotesk-neue-trial);
+  }
+  .a-virtual-try-on,
+  .div {
+    position: relative;
+    display: inline-block;
+  }
+  .div {
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #989898;
+    width: 464px;
+    font-family: var(--font-font-awesome-5-brands);
+  }
+  .a-virtual-try-on {
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: 300;
+    height: 57.55px;
+    flex-shrink: 0;
+    transform: rotate(0.38deg);
+    transform-origin: 0 0;
+  }
+  .frame-select {
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 92px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) 16px 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .buy {
+    position: relative;
+    font-size: 12.37px;
+    text-transform: uppercase;
+    font-family: var(--font-fk-grotesk-neue-trial);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .buy-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xs) 45px;
+    background-color: var(--color-black);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    width: 464px;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xl);
+  }
+  .frame-parent,
+  .info,
+  .shop {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .info {
+    flex: 1;
+    height: 203.54px;
+    flex-direction: column;
+    padding: 0 150px 0 var(--padding-xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: var(--gap-xs);
+  }
+  .shop {
+    align-self: stretch;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-41xl);
+  }
+  .other-products1 {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .other-products-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-child,
+  .frame-inner,
+  .frame-item {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .frame-child:hover {
+    mix-blend-mode: normal;
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 59px;
+  }
+  .frame-group,
+  .other-products {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+  .frame-group {
+    align-items: center;
+    justify-content: space-around;
+    gap: 79px;
+    flex-wrap: wrap;
+  }
+  .other-products {
+    height: 802.82px;
+    flex-shrink: 0;
+    padding: var(--padding-41xl) 120px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 59.6px;
+  }
+  .beyond-container-icon {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+  .beyond-logo {
+    align-self: stretch;
+    height: 405px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .beyond-2022 {
+    display: inline-block;
+    width: 88px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+  .beyond-2022,
+  .w-icon,
+  .website-by1 {
+    position: relative;
+  }
+  .w-icon {
+    width: 13.4px;
+    height: 11.89px;
+    flex-shrink: 0;
+  }
+  .website-by {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: var(--gap-xs);
+    font-family: var(--font-fk-grotesk-neue-trial);
+  }
+  .beyond-2022-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+  }
+  .footer,
+  .nav-parent {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    color: var(--color-black);
+  }
+  .footer {
+    align-self: stretch;
+    height: 107px;
+    flex-shrink: 0;
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-21xl) var(--padding-41xl);
+    box-sizing: border-box;
+    justify-content: center;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-helvetica);
+  }
+  .nav-parent {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 2399.82px;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 33px;
+    font-family: var(--font-fk-grotesk-neue-trial);
+  }
+  @media screen and (max-width: 1200px) {
+    .frame-group {
+      gap: var(--gap-41xl);
+    }
+    .beyond-logo {
+      gap: var(--gap-0);
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .info,
+    .nav,
+    .product-image-icon {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+    .info {
+      flex-direction: column;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-11xl);
+    }
+    .shop {
+      flex-direction: row;
+      gap: var(--gap-0);
+    }
+    .frame-container {
+      gap: var(--gap-41xl);
+    }
+    .frame-group {
+      gap: var(--gap-21xl);
+    }
+    .other-products {
+      gap: var(--gap-0);
+      padding-bottom: 0;
+      box-sizing: border-box;
+    }
+    .beyond-logo {
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .footer {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .nav {
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .product-image-icon {
+      padding-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .buy-wrapper:hover {
+      background-color: var(--color-gray);
+    }
+    .info {
+      flex: unset;
+      align-self: stretch;
+    }
+    .shop {
+      flex-direction: column;
+      gap: var(--gap-21xl);
+    }
+    .frame-container {
+      padding-bottom: var(--padding-3xs);
+      box-sizing: border-box;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .frame-group {
+      gap: var(--gap-xl);
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .other-products {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .beyond-container-icon,
+    .beyond-logo {
+      padding-top: 500px;
+      box-sizing: border-box;
+    }
+    .beyond-logo {
+      gap: var(--gap-0);
+      padding-top: 0;
+    }
+    .beyond-2022-parent {
+      flex: unset;
+      align-self: stretch;
+    }
+    .footer {
+      flex-direction: column;
+      gap: var(--gap-0);
+      align-items: flex-end;
+      justify-content: space-between;
+      padding-left: var(--padding-11xl);
+      padding-top: 0;
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+  }
+  
