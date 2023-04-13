@@ -570,10 +570,6 @@
   }
   .frame-parent,
   .info,
-  .shop {
-    display: flex;
-    justify-content: flex-start;
-  }
   .info {
     flex: 1;
     height: 250px;
@@ -584,13 +580,7 @@
     gap: var(--gap-xs);
     font-size: 20px;
   }
-  .shop {
-    align-self: stretch;
-    overflow: hidden;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--gap-41xl);
-  }
+ 
   
   .frame-child,
   .frame-inner,
