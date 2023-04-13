@@ -33,13 +33,7 @@
   font-family: 'FKLight';
 }
 .contact-wrapper,
-.nav {
-  overflow: hidden;
-  display: flex;
-  top: 0;
-  flex-direction: row;
-  z-index: 1; 
-}
+
 .contact-wrapper {
   border-radius: var(--br-2xs);
   background-color: var(--color-white);
@@ -48,12 +42,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   z-index: 0;
-}
-.nav {
-  align-self: stretch;
-  padding: 10px 41px 10px 41px;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .shop {
