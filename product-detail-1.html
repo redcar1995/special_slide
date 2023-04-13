@@ -33,20 +33,11 @@
         </div>
       </div>
       <div class="shop">
-        <div>
-          <img src="./public/image-106@2x.png" alt="Product Image 1">
-        </div>
-        <div>
-          <img src="./public/image-106@2x.png" alt="Product Image 2">
-        </div>
-        <div>
-          <video controls>
-            <source src="path/to/video.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div>
-          <img src="./public/image-106@2x.png" alt="Product Image 3">
-        </div>
+        <img
+          class="product-image-icon"
+          alt=""
+          src="./public/image-106@2x.png"
+        />
         <div class="info">
           <div class="product-name">Beyond Tech Hoodie 03</div>
           <div class="div"><span>€</span><span class="span">70</span></div>
@@ -287,25 +278,6 @@
         for (let i = 0; i < scrollAnimElements.length; i++) {
           observer.observe(scrollAnimElements[i]);
         }
-        </script>
-        <script>
-          $(document).ready(function(){
-            $('.product-slider').slick({
-              slidesToShow: 3, // show three slides at a time
-              slidesToScroll: 1, // scroll one slide at a time
-              autoplay: true, // autoplay the slider
-              autoplaySpeed: 5000, // autoplay speed in milliseconds
-              responsive: [
-                {
-                  breakpoint: 768, // breakpoint for smaller screens
-                  settings: {
-                    slidesToShow: 1, // show one slide at a time
-                    slidesToScroll: 1 // scroll one slide at a time
-                  }
-                }
-              ]
-            });
-          });
         </script>
         </div>
     </div>
