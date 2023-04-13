@@ -596,12 +596,6 @@
   }
   .frame-child,
   .frame-inner,
-  .frame-item {
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
   .frame-child:hover {
     mix-blend-mode: normal;
   }
