@@ -574,6 +574,7 @@
     box-sizing: border-box;
     align-items: flex-start;
     gap: var(--gap-xs);
+    font-size: 20px;
   }
   .shop {
     align-self: stretch;
