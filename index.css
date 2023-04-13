@@ -764,11 +764,7 @@
       align-items: center;
       justify-content: flex-start;
     }
-    .footer {
-      padding-left: var(--padding-21xl);
-      padding-right: var(--padding-21xl);
-      box-sizing: border-box;
-    }
+    
   }
   @media screen and (max-width: 420px) {
     .nav {
