@@ -575,17 +575,7 @@
     align-items: center;
     gap: var(--gap-41xl);
   }
-  .other-products1 {
-    position: relative;
-    text-transform: uppercase;
-  }
-  .other-products-wrapper {
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-3xs);
-    align-items: center;
-    justify-content: center;
-  }
+  
   .frame-child,
   .frame-inner,
   .frame-child:hover {
