@@ -487,7 +487,7 @@
   .contact {
     position: relative;
     font-size: var(--font-size-xs);
-    font-family: var(--font-fk-grotesk-neue-trial);
+    font-family: 'FKReg';
     color: var(--color-black);
     text-align: left;
   }
