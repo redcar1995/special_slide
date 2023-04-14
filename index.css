@@ -339,11 +339,13 @@
 .snapchat-lens,
 .snapchat-lens1,
 .snapchat-lens2 {
-  position: absolute;
+  position: initial;
   top: 1105px;
   left: 120px;
   display: inline-block;
   width: 210px;
+  margin-left: 11px;
+  color: #000;
 }
 .snapchat-lens1,
 .snapchat-lens2 {
