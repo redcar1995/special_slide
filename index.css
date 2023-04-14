@@ -250,6 +250,7 @@
 @media only screen and (max-width: 767px) {
   .nav-parent {
     width: 122%;
+    padding: 15px;
   }
 }
 
@@ -533,6 +534,17 @@
     padding: 44px;
     box-sizing: border-box;
     justify-content: flex-start;
+  }
+  @media only screen and (max-width: 767px) {
+    .nav {
+      align-self: stretch;
+    height: 50px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 44px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    }
   }
   .product-image-icon {
     max-width: 100%;
