@@ -522,7 +522,7 @@
     height: 107px;
     flex-shrink: 0;
     overflow: hidden;
-    padding: var(--padding-21xl) var(--padding-41xl);
+    padding: 44px;
     box-sizing: border-box;
     justify-content: flex-start;
   }
