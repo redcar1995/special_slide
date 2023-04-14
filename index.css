@@ -745,10 +745,6 @@
       padding-left: var(--padding-xl);
       padding-right: var(--padding-11xl);
     }
-    .shop {
-      flex-direction: row;
-      gap: var(--gap-0);
-    }
     .frame-container {
       gap: var(--gap-41xl);
     }
@@ -783,10 +779,6 @@
     .info {
       flex: unset;
       align-self: stretch;
-    }
-    .shop {
-      flex-direction: column;
-      gap: var(--gap-21xl);
     }
     .frame-container {
       padding-bottom: var(--padding-3xs);
