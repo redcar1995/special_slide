@@ -826,6 +826,8 @@
     .beyond-2022-parent {
       flex: unset;
       align-self: stretch;
+      padding: 10px 0px 14px 20px;
+      width: 114%;
     }
     .footer {
       flex-direction: column;
