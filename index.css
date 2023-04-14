@@ -333,6 +333,29 @@
   color: #000000;
 }
 
+.snapchat {
+  margin: 0;
+}
+.snapchat-lens,
+.snapchat-lens1,
+.snapchat-lens2 {
+  position: absolute;
+  top: 1105px;
+  left: 120px;
+  display: inline-block;
+  width: 210px;
+}
+.snapchat-lens1,
+.snapchat-lens2 {
+  left: 536.12px;
+  width: 178.34px;
+  height: 32.27px;
+}
+.snapchat-lens2 {
+  top: 1103px;
+  left: 947px;
+}
+
 @media only screen and (max-width: 768px) {
   .image-container {
     display: flex;
