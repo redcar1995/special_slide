@@ -248,6 +248,22 @@
   font-family: 'FKLight';
 }
 
+@media screen and (max-width: 420px) {
+  .nav-parent {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 39px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+    font-family: 'FKLight';
+  }
+
 .image-container {
   display: flex;
   justify-content: space-between;
