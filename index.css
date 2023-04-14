@@ -428,7 +428,9 @@
     flex: unset;
     text-align: center;
     width: 350px;
-    padding: 46px 20px 0px 100px
+    padding: 46px 20px 0px 100px;
+    font-size: 26px;
+    font-family: 'FKLight';
   }
   .image-108-parent {
     flex-direction: column;
