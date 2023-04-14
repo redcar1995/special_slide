@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="description" content="Beyond Studio" />
+    <meta name="keywords" content="Beyond Studio" />
+    <meta name="author" content="Beyond Studio" />
+    <title>Beyond Shop</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=FK Grotesk Neue Trial:wght@300;400&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+    <div class="nav-parent">
+      <div class="nav">
+        <div class="logo-parent">
+          <a href="index.html">
+            <img class="logo-icon" alt="" src="./public/logo.svg" />
+          </a>
+          <button
+          class="button"
+        >
+            <div class="contact">Contact</div>
+          </button>
+        </div>
+      </div>
+      <div class="shop">
+        <div id="image-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img alt="" src="./public/image-106@2x.png">
+              </li>
+              <li class="splide__slide">
+                <img alt="" src="./public/image-107@2x.png">
+              </li>
+              <li class="splide__slide">
+                <img alt="" src="./public/image-108@2x.png">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="info">
+          <div class="product-name">Beyond Tech Hoodie 01</div>
+          <div class="div"><span>€</span><span class="span">70</span></div>
+          <div class="a-virtual-try-on-new">
+            <p>The Beyond Tech Hoodie is part of the Beyond01 Capsule Collection. A collection specifically designed and engineered to gap the bridge between the digital and the virtual world.</p>
+            <p><b>The Tech</b></p>
+            <p>An implemented and 100% washable NFC chip activates a Snapchat Lens adding a virtual layer to the hoodie when pointing the camera on the print. </p>
+            <p><b>The Fit</b></p>
+            <p>The hoodie has a wide fit with withe sleeves an a medium length which gives it a slightly oversized feel.</p>
+            <p><b>The Fabric</b></p>
+            <p>We want you to be able to wear this on any occasion and any day. The fabric has a just thick enough to stay warm on summer evening's and perfect to layer it up when it's a bit cooler.</p>
+          </div>
+        </div>
+      </div>
+      
+      <script src="https://unpkg.com/@splidejs/splide@3.0.7/dist/js/splide.min.js"></script>
+      <script>
+        new Splide('#image-slider', {
+          type: 'slide',
+          perPage: 1,
+          autoplay: true,
+          pauseOnHover: false,
+        }).mount();
+      </script>
+          <div id='product-component-1681379371979'></div>
+          <div id='product-component-1681385742817'></div>
+          <script type="text/javascript">
+          /*<![CDATA[*/
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'beyondstudio-store.myshopify.com',
+                storefrontAccessToken: '189ea2cdc046f00aa40de181f4a3ce12',
+              });
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: '8359748632919',
+                  node: document.getElementById('product-component-1681385742817'),
+                  moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+                  options: {
+            "product": {
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "calc(25% - 20px)",
+                    "margin-left": "20px",
+                    "margin-bottom": "50px"
+                  },
+                  "text-align": "left"
+                },
+                "button": {
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px",
+                  ":hover": {
+                    "background-color": "#000000"
+                  },
+                  "background-color": "#000000",
+                  ":focus": {
+                    "background-color": "#000000"
+                  },
+                  "border-radius": "16px"
+                },
+                "quantityInput": {
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px"
+                }
+              },
+              "contents": {
+                "img": false,
+                "title": false,
+                "price": false
+              },
+              "text": {
+                "button": "Add to cart"
+              }
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
+                }
+              }
+            },
+            "modalProduct": {
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "button": false,
+                "buttonWithQuantity": true
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px"
+                  }
+                },
+                "button": {
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px",
+                  ":hover": {
+                    "background-color": "#000000"
+                  },
+                  "background-color": "#000000",
+                  ":focus": {
+                    "background-color": "#000000"
+                  },
+                  "border-radius": "16px"
+                },
+                "quantityInput": {
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px"
+                }
+              },
+              "text": {
+                "button": "Add to cart"
+              }
+            },
+            "option": {},
+            "cart": {
+              "styles": {
+                "button": {
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px",
+                  ":hover": {
+                    "background-color": "#000000"
+                  },
+                  "background-color": "#000000",
+                  ":focus": {
+                    "background-color": "#000000"
+                  },
+                  "border-radius": "16px"
+                }
+              },
+              "text": {
+                "total": "Subtotal",
+                "button": "Checkout"
+              },
+              "contents": {
+                "note": true
+              },
+              "popup": false
+            },
+            "toggle": {
+              "styles": {
+                "toggle": {
+                  "background-color": "#000000",
+                  ":hover": {
+                    "background-color": "#000000"
+                  },
+                  ":focus": {
+                    "background-color": "#000000"
+                  }
+                },
+                "count": {
+                  "font-size": "14px"
+                }
+              }
+            }
+          },
+                });
+              });
+            }
+          })();
+          /*]]>*/
+          </script>
+        </div>
+      </div>
+     
+     
+      <div class="image-container">
+        <a href="product-detail-1.html">
+          <div>
+            <img class="frame-child" alt="" src="./public/image-106@2x.png" data-animate-on-scroll />
+            <div id='product-component-1'></div>
+            <div class="snapchat-lens">
+              <p class="snapchat">Beyond</p>
+              <p class="snapchat">Tech Hoodie 01</p>
+            </div>
+          </div>
+        </a>
+        <a href="product-detail-2.html">
+          <div>
+            <img class="frame-child" alt="" src="./public/image-106@2x.png" data-animate-on-scroll />
+            <div id='product-component-2'></div>
+            <div class="snapchat-lens">
+              <p class="snapchat">Beyond</p>
+              <p class="snapchat">Tech Hoodie 02</p>
+            </div>
+          </div>
+        </a>
+        <a href="product-detail-3.html">
+          <div>
+            <img class="frame-child" alt="" src="./public/image-106@2x.png" data-animate-on-scroll />
+            <div id='product-component-3'></div>
+            <div class="snapchat-lens">
+              <p class="snapchat">Beyond</p>
+              <p class="snapchat">Tech Hoodie 03</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      
+        <div class="logo-wrapper">
+          <img class="logo-icon1" alt="" src="./public/logo1@2x.png" />
+        </div>
+        <div class="beyond-2022-parent">
+          <div class="contact">
+            <span>©</span><span class="beyond-20221"> Beyond 2023</span>
+          </div>
+          <div class="website-by-parent">
+            <div class="contact">Website by</div>
+            <img class="w-icon" alt="" src="./public/w.svg" />
+          </div>
+        </div>
+      </div>
+  
+      <script>
+        var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+        var observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting || entry.intersectionRatio > 0) {
+                const targetElement = entry.target;
+                targetElement.classList.add("animate");
+                observer.unobserve(targetElement);
+              }
+            }
+          },
+          {
+            threshold: 0.15,
+          }
+        );
+        
+        for (let i = 0; i < scrollAnimElements.length; i++) {
+          observer.observe(scrollAnimElements[i]);
+        }
+        </script>
+        </div>
+    </div>
+  </body>
+</html>
