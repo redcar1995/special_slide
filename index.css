@@ -699,6 +699,10 @@
     height: 11.89px;
     flex-shrink: 0;
   }
+  a.no-underline {
+    text-decoration: none;
+  }
+  
   .website-by {
     overflow: hidden;
     display: flex;
