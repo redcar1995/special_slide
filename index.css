@@ -43,16 +43,6 @@
   justify-content: flex-start;
   z-index: 0;
 }
-
-.shop {
-  position: relative;
-  text-transform: uppercase;
-  display: inline-block;
-  flex-shrink: 0;
-  font-size: 150px;
-  font-family: 'FKReg';
-}
-
 .frame-child,
 
 .header {
@@ -702,7 +692,7 @@
   a.no-underline {
     text-decoration: none;
   }
-  
+
   .website-by {
     overflow: hidden;
     display: flex;
