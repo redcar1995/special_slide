@@ -758,9 +758,8 @@
   }
   @media screen and (max-width: 420px) {
     .nav {
-      padding-left: var(--padding-11xl);
-      padding-right: var(--padding-11xl);
       box-sizing: border-box;
+      padding: 10px;
     }
     .product-image-icon {
       padding-left: 0;
