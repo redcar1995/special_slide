@@ -356,6 +356,70 @@
   top: 1103px;
   left: 947px;
 }
+/* Style for slider container */
+#image-slider {
+  margin-top: 20px;
+}
+
+/* Style for slider images */
+#image-slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for product name */
+.product-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+/* Style for product price */
+.div {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.div span:first-child {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Style for product description */
+.a-virtual-try-on-new {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.a-virtual-try-on-new p:first-child {
+  margin-top: 0;
+}
+
+/* Style for virtual try on button */
+.virtual-try-on-button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #F39830;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.virtual-try-on-button:hover {
+  background-color: #E6891A;
+}
 
 
 
