@@ -363,8 +363,8 @@
   }
 
   .image-container div {
-    margin-bottom: 30px;
     width: 100%;
+    padding: 0px 0px 6px 0px;
   }
 }
 
