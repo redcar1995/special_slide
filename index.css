@@ -416,10 +416,8 @@
     gap: var(--gap-21xl);
   }
   .a-virtual-try-on {
-    flex: unset;
     text-align: center;
-    width: 350px;
-    padding: 46px 18px 0px 100px;
+    padding: 29px 34px 0px 23px;
     font-size: 26px;
     line-height: 34px;
     font-family: 'FKLight';
@@ -442,7 +440,10 @@
   .image-106-icon {
     padding: 18px 0px 61px 58px;
     text-align: center;
-    width: 350px;
+    padding: 19px 34px 60px 33px;
+    font-family: 'FKLight';
+    line-height: 34px;
+    font-size: 26px;
   }
   .a-virtual-try-on-we-created-fo-parent {
     flex-direction: column;
