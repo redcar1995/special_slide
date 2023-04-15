@@ -510,6 +510,7 @@
     overflow: hidden;
     align-items: flex-start;
     justify-content: flex-end;
+    margin-bottom: 3px;
   }
   .logo-parent,
   .nav {
@@ -763,9 +764,6 @@
   @media screen and (max-width: 960px) {
     .info,
     .nav,
-    .frame-group {
-      gap: var(--gap-21xl);
-    }
     .other-products {
       gap: var(--gap-0);
       padding-bottom: 0;
