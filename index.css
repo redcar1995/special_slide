@@ -240,7 +240,7 @@
 }
 @media only screen and (max-width: 767px) {
   .nav-parent {
-    width: 122%;
+    width: 100%;
     padding: 15px;
   }
 }
