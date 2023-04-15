@@ -635,11 +635,11 @@
   }
   @media only screen and (max-width: 767px) {
     .info {
-      position: absolute;
-      top: 490px;
+      position: initial;
+      top: 444px;
       left: 45px;
       width: 310px;
-      padding: 0px;
+      padding: 95px 10px 10px 10px;
       display: block;
       font-family: 'FKLight';
     }
