@@ -650,7 +650,12 @@
     flex-direction: row;
     align-items: center;
     gap: var(--gap-41xl);
-    margin-bottom: 150px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .shop {
+      margin-bottom: 150px;
+    }
   }
   
   .frame-child,
