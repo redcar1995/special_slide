@@ -177,6 +177,19 @@ a {
   flex-shrink: 0;
   object-fit: cover;
 }
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+}
+
+.slider img:first-child {
+  display: block;
+}
 
 .logo-wrapper {
   align-self: stretch;
