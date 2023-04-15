@@ -639,9 +639,8 @@
       top: 518px;
       left: 45px;
       width: 355px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 15px;
+      padding: 10px;
+      display: block;
     }
   }
   .shop {
@@ -758,9 +757,6 @@
   @media screen and (max-width: 960px) {
     .info,
     .nav,
-    .frame-container {
-      gap: var(--gap-41xl);
-    }
     .frame-group {
       gap: var(--gap-21xl);
     }
