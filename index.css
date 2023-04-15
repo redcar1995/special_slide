@@ -827,7 +827,6 @@
       flex: unset;
       align-self: stretch;
       padding: 10px 10px 14px 9px;
-      width: 98%;
     }
     .footer {
       flex-direction: column;
