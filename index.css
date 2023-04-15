@@ -779,14 +779,6 @@
       box-sizing: border-box;
       padding: 10px;
     }
-    .product-image-icon {
-      position: absolute;
-      top: 82px;
-      left: 0;
-      width: 428px;
-      height: 381px;
-      object-fit: cover;
-    }
     .buy-wrapper:hover {
       background-color: var(--color-gray);
     }
