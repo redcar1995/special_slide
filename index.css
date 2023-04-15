@@ -747,11 +747,6 @@
   @media screen and (max-width: 960px) {
     .info,
     .nav,
-    .info {
-      flex-direction: column;
-      padding-left: var(--padding-xl);
-      padding-right: var(--padding-11xl);
-    }
     .frame-container {
       gap: var(--gap-41xl);
     }
@@ -776,10 +771,6 @@
     }
     .buy-wrapper:hover {
       background-color: var(--color-gray);
-    }
-    .info {
-      flex: unset;
-      align-self: stretch;
     }
     .frame-container {
       padding-bottom: var(--padding-3xs);
