@@ -549,12 +549,12 @@
   }
   @media (max-width: 768px) {
     .product-image-icon {
-      height: auto;
-      width: 100%;
-      max-height: none;
-      max-width: none;
-      object-fit: contain;
-      overflow: initial;
+      position: absolute;
+      top: 82px;
+      left: 0;
+      width: 428px;
+      height: 381px;
+      object-fit: cover;
     }
   }
 
@@ -780,10 +780,12 @@
       padding: 10px;
     }
     .product-image-icon {
-      padding-left: 0;
-      padding-top: 0;
-      padding-right: 0;
-      box-sizing: border-box;
+      position: absolute;
+      top: 82px;
+      left: 0;
+      width: 428px;
+      height: 381px;
+      object-fit: cover;
     }
     .buy-wrapper:hover {
       background-color: var(--color-gray);
