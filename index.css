@@ -178,17 +178,15 @@ a {
   object-fit: cover;
 }
 .slider {
-  width: 100%;
-  overflow: hidden;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
-.slider img {
-  width: 100%;
+.slider::-webkit-scrollbar {
   display: none;
-}
-
-.slider img:first-child {
-  display: block;
 }
 
 .logo-wrapper {

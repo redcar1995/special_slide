@@ -26,8 +26,7 @@
             <img class="logo-icon" alt="" src="./public/logo.svg" />
           </a>
           <button
-          class="button"
-        >
+          class="button">
             <div class="contact">Contact</div>
           </button>
         </div>
@@ -217,6 +216,18 @@
             }
           })();
           /*]]>*/
+          </script>
+          <script>
+            const slider = document.querySelector('.slider');
+            const images = document.querySelectorAll('.slider img');
+            let currentSlide = 0;
+            const slideInterval = setInterval(nextSlide, 3000);
+      
+            function nextSlide() {
+              images[currentSlide].classList.remove('active');
+              currentSlide = (currentSlide + 1) % images.length;
+              images[currentSlide].classList.add('active');
+            }
           </script>
         </div>
       </div>
