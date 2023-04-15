@@ -407,7 +407,7 @@
   .header.animate,
   .image-108-parent.animate {
     animation: 1s ease 0s 1 normal forwards fade-in;
-    padding: 0px;
+    padding: 10px;
     font-size: 70px;
     font-family: 'FKReg';
 
