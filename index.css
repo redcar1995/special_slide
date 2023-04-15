@@ -180,13 +180,13 @@
 @media only screen and (max-width: 768px) {
   .logo-wrapper {
     height: auto;
-    padding: 20px;
+    padding: 8px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 122%;
+    width: 100%;
   }
 
   .logo-wrapper > * {
@@ -817,8 +817,8 @@
     .beyond-2022-parent {
       flex: unset;
       align-self: stretch;
-      padding: 10px 0px 14px 20px;
-      width: 114%;
+      padding: 10px 10px 14px 9px;
+      width: 98%;
     }
     .footer {
       flex-direction: column;
