@@ -633,6 +633,17 @@
     gap: var(--gap-xs);
     font-size: 20px;
   }
+  @media only screen and (max-width: 767px) {
+    .info {
+      position: absolute;
+      top: 518px;
+      left: 45px;
+      width: 355px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  }
   .shop {
     align-self: stretch;
     overflow: hidden;
