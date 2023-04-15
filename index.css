@@ -116,6 +116,9 @@
   font-family: 'FKLight';
 
 }
+a {
+  text-decoration: none;
+}
 
 .image-108-parent {
   align-self: stretch;
