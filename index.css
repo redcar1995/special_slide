@@ -444,6 +444,7 @@
     font-family: 'FKLight';
     line-height: 34px;
     font-size: 26px;
+    margin: 0;
   }
   .a-virtual-try-on-we-created-fo-parent {
     flex-direction: column;
