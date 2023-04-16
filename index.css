@@ -611,7 +611,7 @@ a {
     position: relative;
     font-size: 12.37px;
     text-transform: uppercase;
-    font-family: var(--font-fk-grotesk-neue-trial);
+    font-family: 'FKLight';
     color: var(--color-white);
     text-align: center;
   }
@@ -744,7 +744,7 @@ a {
     align-items: flex-start;
     justify-content: flex-end;
     gap: var(--gap-xs);
-    font-family: var(--font-fk-grotesk-neue-trial);
+    font-family: 'FKLight';
   }
   .beyond-2022-parent {
     flex: 1;
@@ -765,7 +765,7 @@ a {
     box-sizing: border-box;
     justify-content: center;
     font-size: var(--font-size-xs);
-    font-family: var(--font-helvetica);
+    font-family: 'FKLight';
   }
   
   @media screen and (max-width: 1200px) {
