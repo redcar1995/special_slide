@@ -10,62 +10,46 @@
     <title>Beyond Shop</title>
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
-    <script>
-      const shopifyDomain = 'beyondstudio-store.myshopify.com';
-      const accessToken = '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';
-      const productId = '8359748632919';
-    
-      const url = `https://starlit-taffy-3ea5ac.netlify.app/proxy.php?url=https://${shopifyDomain}/admin/api/2021-10/products/${productId}.json`;
-      const headers = {
-        'Authorization': `Bearer ${accessToken}`,
-        'Content-Type': 'application/json'
-      };
-    
-      fetch(url, { headers })
-        .then(response => response.json())
-        .then(product => {
-          console.log(product);
-          const productName = product.product.title;
-          const productPrice = product.product.variants[0].price;
-          document.querySelector('.product-name').innerHTML = productName;
-          document.querySelector('.product-price').innerHTML = productPrice;
-        })
-        .catch(error => console.error(error));
-    </script>
-    </head>
-    <body>
-      <div class="nav-parent">
-        <div class="nav">
-          <div class="logo-parent">
-            <a href="index.html">
-              <img class="logo-icon" alt="" src="./public/logo.svg" />
-            </a>
-            <button class="button">
-              <a href="mailto:hello@beyond.studio" class="contact">Contact</a>
-            </button>
-          </div>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=FK Grotesk Neue Trial:wght@300;400&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap"/>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="sss/sss.min.js"></script><link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+      <script>jQuery(function($) {$('.slider').sss();});</script>
+  </head>
+  <body>
+    <div class="nav-parent">
+      <div class="nav">
+        <div class="logo-parent">
+          <a href="index.html">
+            <img class="logo-icon" alt="" src="./public/logo.svg" />
+          </a>
+          <button class="button">
+            <a href="mailto:hello@beyond.studio" class="contact">Contact</a>
+          </button>
         </div>
-        <div class="shop">
-          <img class="product-image-icon" alt="" src="./public/image-106@2x.png" />
-          <div class="info">
-            <div class="product-name"></div>
-            <div class="div"><span>€</span><span class="span product-price"></span></div>
-            <div class="a-virtual-try-on-new">
-              <p>The Beyond Tech Hoodie is part of the Beyond01 Capsule Collection. A collection specifically designed and engineered to gap the bridge between the digital and the virtual world.</p>
+      </div>
+      <div class="shop">
+        <img class="product-image-icon" alt="" src="./public/image-106@2x.png"/>
+        <div class="slider">
+          <img src="./public/image-106@2x.png"/> <img src="images/image2.jpg" /></div>
+          </div>
+        <div class="info">
+          <div class="product-name">Beyond Tech Hoodie 01</div>
+          <div class="div"><span>€</span><span class="span"> 70</span></div>
+          <div class="a-virtual-try-on-new">
+            <p>The Beyond Tech Hoodie is part of the Beyond01 Capsule Collection. A collection specifically designed and engineered to gap the bridge between the digital and the virtual world.</p>
               <p><b>The Tech</b></p>
               <p>An implemented and 100% washable NFC chip activates a Snapchat Lens adding a virtual layer to the hoodie when pointing the camera on the print. </p>
               <p><b>The Fit</b></p>
               <p>The hoodie has a wide fit with withe sleeves an a medium length which gives it a slightly oversized feel.</p>
               <p><b>The Fabric</b></p>
               <p>We want you to be able to wear this on any occasion and any day. The fabric has a just thick enough to stay warm on summer evening's and perfect to layer it up when it's a bit cooler.</p>
-            </div>
           </div>
-        </div>
-      </div>
-    </body>
-    
-        
-      </div>
+          
           <script type="text/javascript">
           /*<![CDATA[*/
           (function () {
