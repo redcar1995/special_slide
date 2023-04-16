@@ -25,7 +25,6 @@
             .then(response => response.json())
             .then(product => {
               console.log(product);
-              // Here you can update your HTML with the product information
               const productName = product.product.title;
               const productPrice = product.product.variants[0].price;
               document.querySelector('.product-name').innerHTML = productName;
@@ -47,11 +46,11 @@
         </div>
       </div>
       <div class="shop">
-        <div class="image-container-new">
-          <img class="product-image-icon" alt="" src="./public/image-106@2x.png" />
-          <img class="product-image-icon" alt="" src="./public/productimage@2x.jpg" />
-          <img class="product-image-icon" alt="" src="./public/image-108@2x.png" />
-        </div>
+        <img
+          class="product-image-icon"
+          alt=""
+          src="./public/image-106@2x.png"
+        />
         <div class="info">
           <div class="product-name">Beyond Tech Hoodie 01</div>
           <div class="div"><span>€</span><span class="span product-price"></span></div>
