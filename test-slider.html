@@ -18,7 +18,16 @@
       href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap"/>
       <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+<script>
+  var swiper = new Swiper('.shop .swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+  });
+</script>
   </head>
   <body>
     <div class="nav-parent">
