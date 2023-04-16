@@ -29,16 +29,16 @@
         };
       
         fetch(url, { headers })
-          .then(response => response.json())
-          .then(product => {
-            console.log(product);
-            // Here you can update your HTML with the product information
-            const productName = product.product.title;
-            const productPrice = product.product.variants[0].price;
-            document.querySelector('.product-name').innerHTML = productName;
-            document.querySelector('.product-price').innerHTML = productPrice;
-          })
-          .catch(error => console.error(error));
+    .then(response => response.json())
+    .then(product => {
+      console.log(product);
+      // Here you can update your HTML with the product information
+      const productName = product.product.title;
+      const productPrice = product.product.variants[0].price;
+      document.querySelector('.product-name').innerHTML = productName;
+      document.querySelector('.product-price').innerHTML = productPrice;
+    })
+    .catch(error => console.error(error));
       </script>
   </head>
   <body>
@@ -61,7 +61,7 @@
         </div>
         <div class="info">
           <div class="product-name">Beyond Tech Hoodie 01</div>
-          <div class="div"><span>€</span><span class="span"> {{ product.price | money }}</span></div>
+          <div class="div"><span>€</span><span class="span product-price"></span></div>
           <div class="a-virtual-try-on-new">
             <p>The Beyond Tech Hoodie is part of the Beyond01 Capsule Collection. A collection specifically designed and engineered to gap the bridge between the digital and the virtual world.</p>
             <p><b>The Tech</b></p>
