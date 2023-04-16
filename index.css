@@ -581,7 +581,7 @@ a {
     width: 464px;
   }
   .span {
-    font-family: var(--font-fk-grotesk-neue-trial);
+    font-family: 'FKLight'
   }
   .a-virtual-try-on,
   .div {
