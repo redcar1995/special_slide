@@ -30,18 +30,7 @@
         </div>
       </div>
       <div class="shop">
-        <figure>
-          <img class="product-image-icon" alt="" src="./public/image-106@2x.png"/>
-          <figcaption>Image 1</figcaption>
-      </figure>
-      <figure>
-          <img class="product-image-icon" alt="" src="./public/image-106@2x.png"/>
-          <figcaption>Image 2</figcaption>
-      </figure>
-      <figure>
-          <img class="product-image-icon" alt="" src="./public/image-106@2x.png"/>
-          <figcaption>Image 3</figcaption>
-      </figure>
+        <img class="product-image-icon" alt="" src="./public/image-106@2x.png"/>
         <div class="info">
           <div class="product-name">Beyond Tech Hoodie 01</div>
           <div class="div"><span>€</span><span class="span"> 70</span></div>
@@ -54,24 +43,7 @@
               <p><b>The Fabric</b></p>
               <p>We want you to be able to wear this on any occasion and any day. The fabric has a just thick enough to stay warm on summer evening's and perfect to layer it up when it's a bit cooler.</p>
           </div>
-          <script>
-            // Get references to the image element and an array of image URLs
-const productImage = document.getElementById('product-image');
-const imageUrls = ['./public/image-106@2x.png', './public/image-107@2x.png', './public/image-108@2x.png'];
-
-// Set up a click event listener on the image element
-productImage.addEventListener('click', function() {
-    // Get the index of the current image URL in the array
-    const currentIndex = imageUrls.indexOf(productImage.src);
-
-    // If the current image is the last one in the array, set the index to 0 to start over
-    const nextIndex = (currentIndex === imageUrls.length - 1) ? 0 : currentIndex + 1;
-
-    // Set the src attribute of the image element to the next URL in the array
-    productImage.src = imageUrls[nextIndex];
-});
-
-          </script>
+          
           <script type="text/javascript">
           /*<![CDATA[*/
           (function () {
