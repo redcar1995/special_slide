@@ -77,6 +77,24 @@
   position: relative;
   display: inline-block;
 }
+.image-container-new {
+  width: 60%;
+  margin-right: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.image-container-new img {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-container-new img.active {
+  display: block;
+}
+
 
 .frame-child {
   max-width: 96%;
@@ -176,27 +194,6 @@ a {
   height: auto;
   flex-shrink: 0;
   object-fit: cover;
-}
-.slider {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-}
-
-.slider::-webkit-scrollbar {
-  display: none;
-}
-.shop .swiper-container {
-  width: 50%;
-  display: inline-block;
-  height: 680px;
-}
-
-.shop .swiper-slide img {
-  width: 100%;
-  height: auto;
 }
 
 .shop .info {
