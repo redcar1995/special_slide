@@ -21,24 +21,24 @@
         const shopifyDomain = 'beyondstudio-store.myshopify.com';
         const accessToken = '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';
         const productId = '8359748632919';
-      
-        const url = `https://${shopifyDomain}/admin/api/2021-10/products/${productId}.json`;
+        
+        const url = `https://starlit-taffy-3ea5ac.netlify.app/proxy.php?url=https://${shopifyDomain}/admin/api/2021-10/products/${productId}.json`;
         const headers = {
           'Authorization': `Bearer ${accessToken}`,
           'Content-Type': 'application/json'
         };
-      
+        
         fetch(url, { headers })
-    .then(response => response.json())
-    .then(product => {
-      console.log(product);
-      // Here you can update your HTML with the product information
-      const productName = product.product.title;
-      const productPrice = product.product.variants[0].price;
-      document.querySelector('.product-name').innerHTML = productName;
-      document.querySelector('.product-price').innerHTML = productPrice;
-    })
-    .catch(error => console.error(error));
+          .then(response => response.json())
+          .then(product => {
+            console.log(product);
+            // Here you can update your HTML with the product information
+            const productName = product.product.title;
+            const productPrice = product.product.variants[0].price;
+            document.querySelector('.product-name').innerHTML = productName;
+            document.querySelector('.product-price').innerHTML = productPrice;
+          })
+          .catch(error => console.error(error));
       </script>
   </head>
   <body>
